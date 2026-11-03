@@ -1,20 +1,11 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Explain how your project works
+This project implements a two-input AND gate using Wokwi and Tiny Tapeout. Inputs A and B are connected to IN0 and IN1. The output is connected to OUT0. The output is HIGH only when both inputs are HIGH.
 
 ## How to test
 
-Explain how to use your project
+Run the simulation in Wokwi. Set switches 1 and 2 to ON to turn on the LED. If either switch is OFF, the LED stays OFF. Test all four input combinations to verify the AND gate truth table.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is required. An LED is used in the Wokwi simulation to display the output.
